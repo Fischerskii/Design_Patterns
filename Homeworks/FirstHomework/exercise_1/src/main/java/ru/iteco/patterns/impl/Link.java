@@ -6,6 +6,9 @@ public class Link implements FSItem {
     private static volatile String name;
     private static volatile FSItem link;
 
+    public Link() {
+    }
+
     @Override
     public String getName() {
         return null;

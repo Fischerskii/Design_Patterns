@@ -5,6 +5,9 @@ import ru.iteco.patterns.FSItem;
 public class File implements FSItem {
     String name;
 
+    private File() {
+    }
+
     @Override
     public String getName() {
         return null;

@@ -8,6 +8,9 @@ public class Directory implements FSItem {
     List<FSItem> children;
     String name;
 
+    private Directory() {
+    }
+
     List<FSItem> getChildren() {
         return null;
     }
